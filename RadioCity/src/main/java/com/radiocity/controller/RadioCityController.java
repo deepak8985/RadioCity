@@ -30,4 +30,9 @@ public class RadioCityController {
 	public ModelAndView fristPage() {
 		return new ModelAndView("page");
 	}
+	
+	@GetMapping(value="/page2")
+	public ModelAndView fristPage2() {
+		return new ModelAndView("page");
+	}
 }
